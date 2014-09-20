@@ -1,0 +1,444 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+li {
+	list-style:none;
+}
+
+a {
+	border:none;
+	text-decoration:none;
+	outline:none;
+}
+
+video{
+	width:620px;
+	height:500px;
+	border:none;
+	outline:none;
+}
+
+img {
+	border:none;
+	height:auto;
+}
+
+h1 {
+	font-size:6.2em;
+	color:#FFFFFF;
+}
+
+
+
+
+
+
+
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:auto;
+	font:'微软雅黑';
+}
+
+#wrapper {
+	width:100%;
+	height:auto;
+}
+
+header{
+	display:block;
+	background:#EE6363;
+	width:100%;
+	height:1000px;
+}
+
+#web_title {
+	width:100%;
+	height:auto;
+	padding:100px 0;
+}
+
+#web_title h1 {
+	display:block;
+	margin:0 auto;
+	font-family:'微软雅黑';
+	text-align:center;
+	font-size:7em;
+	color:#CD5555;
+}
+
+#web_title .upper {
+	color:#FFFFFF;
+	position:relative;
+	top:1.22em;
+	right:0.06em;
+}
+
+
+#web_title h3 {
+	margin-top:200px;
+	display:block;
+	color:#FFFFFF;
+	font-size:0.8em;
+	text-align:center;
+	font-family:"Times New Roman";
+}
+
+#main {
+	width:100%;
+	height:auto;
+}
+
+
+.age {
+	clear:both;
+	float:left;
+	margin:0;
+	padding:0 0;			/*fix a big problem*/
+	width:100%;
+	height:auto;
+	min-height:1000px;
+}
+
+#before_sixties {
+	background:#00BFFF;
+}
+
+#sixties {
+	background:#C0FF3E;
+}
+
+#seventies {
+	background:#EE7621;
+}
+
+#eighties {
+	background:#7FFFD4;
+}
+
+#nineties_first_half {
+	background:#9370DB;
+}
+
+#nineties_last_half {
+	background:#FFD700;
+}
+
+#millennium {
+	background:#FF6A6A;
+}
+
+.years {
+	width:100%;
+	float:left;
+	height:1000px;
+	height:auto;
+}
+
+
+.cartoon {
+	clear:both;
+	width:100%;
+	height:auto;
+	min-height:800px;
+	clear:both;
+	padding:500px 0;
+	float:left;
+}
+
+
+#before_sixties .cartoon {
+	background:url(../bg/before_1960s.png) no-repeat fixed;
+	background-position:center;
+}
+
+#sixties .cartoon {
+	background:url(../bg/1960s.png) no-repeat fixed;
+	background-position:center;
+}
+
+#seventies .cartoon {
+	background:url(../bg/1970s.png) no-repeat fixed;
+	background-position:center;
+}
+
+#eighties .cartoon {
+	background:url(../bg/1980s.png) no-repeat fixed;
+	background-position:center;
+}
+
+#nineties_first_half .cartoon {
+	background:url(../bg/1990s_fh.png) no-repeat fixed;
+	background-position:center;
+}
+
+#nineties_last_half .cartoon {
+	background:url(../bg/1990s_lh.png) no-repeat fixed;
+	background-position:center;
+}
+
+#millennium .cartoon {
+	background:url(../bg/2000s.png) no-repeat fixed;
+	background-position:center;
+}
+
+.cartoon ul {
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+.cartoon ul li{	
+	width:100%;
+	clear:both;
+	float:left;
+	margin-top:250px;
+}
+
+.cartoon ul li h2{
+	clear:both;
+	display:block;
+	color:#FFF;
+	font-size:3em;
+	font-weight:lighter;
+	font-family:'微软雅黑';
+	float:left;
+	margin:0 100px;
+}
+
+.cartoon ul li:nth-child(odd) h2 {
+	float:right;
+}
+
+.cartoon ul li img {
+	clear:both;
+	filter:alpha(opacity=90);
+	width:480px;
+	opacity:0.90;
+	-moz-opacity:0.90;
+	margin: 0 100px;
+	float:left;
+	border-radius:15px;
+	
+}
+
+
+.cartoon ul li:nth-child(odd) img {
+	float:right;
+}
+
+.cartoon ul li a img {
+	filter:alpha(opacity=60);
+	opacity:0.60;
+	-moz-opacity:0.60;
+	clear:both;
+	float:left;
+	width:100px;
+	position:relative;
+	top:-100px;
+}
+
+
+
+#timeline {
+	position:fixed;
+	background:#CCCCCC;
+	left:50%;
+	right:50%;
+	top:0;
+	bottom:0;
+	width:10px;
+	height:auto;
+	margin:0 -5px;
+	cursor:crosshair;
+	filter:alpha(opacity=35);
+	opacity:0.35;
+	-moz-opacity:0.35;
+}
+
+#current_line {
+	position:absolute;
+	background:#333;
+	left:50%;
+	right:50%;
+	margin:0 -10px;
+	width:20px;
+	height:5px;
+}
+
+
+
+
+
+
+#sidebar {
+	background:#FFFAFA;
+	position:fixed;
+	top:50%;
+	bottom:50%;
+	right:0;
+	width:55px;
+	margin:-260px 0;
+	min-height:450px;
+	filter:alpha(opacity=95);
+	opacity:0.95;
+	-moz-opacity:0.95;
+}
+
+#sidebar ul {
+	width:40px;
+	height:auto;
+	margin:50px auto;
+}
+
+#sidebar ul li {
+	width:20px;
+	height:20px;
+	margin:30px auto;
+}
+
+#sidebar ul li a {
+	display:block;
+	margin:30px auto;
+	width:16px;
+	height:16px;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+}
+
+#sidebar ul li a span {
+	position:absolute;
+	margin:4px 4px;
+	width:8px;
+	height:8px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	display:block;
+}
+
+
+#header_dot {
+	background:#EE6363;
+}
+
+
+#before_sixties_dot {
+	background:#00BFFF;
+}
+
+#sixties_dot {
+	background:#C0FF3E;
+}
+
+#seventies_dot {
+	background:#EE7621;
+}
+
+#eighties_dot {
+	background:#7FFFD4;
+}
+
+#nineties_first_half_dot {
+	background:#9370DB;
+}
+
+#nineties_last_half_dot {
+	background:#FFD700;
+}
+
+#millennium_dot {
+	background:#FF6A6A;
+}
+
+#footer_dot {
+	background:#B3EE3A;
+}
+
+
+footer {
+	clear:both;
+	display:block;
+	background:#B3EE3A;
+	width:100%;
+	height:auto;
+}
+
+#info {
+	clear:both;
+	width:100%;
+	height:auto;
+	padding-top:400px;
+	padding-bottom:10px;
+	font-family:'微软雅黑';
+}
+
+#info h2 {
+	display:block;
+	color:#9ACD32;
+	font-size:4.2em;
+	text-align:center;
+}
+
+#info .upper {
+	color:#FFFFFF;
+	position:relative;
+	top:1.22em;
+	right:0.06em;
+}
+
+
+#info h5 {
+	text-align:right;
+	font-size:0.8em;
+	color:#ffffff;
+	margin-right:10px;
+	margin-top:300px;
+}
+	
+
+
+
+.zxx_list_title {
+	background:#eeeeee; 
+	border:1px solid #cccccc; 
+	padding:1em;
+}
+
+.zxx_list_content {
+	padding:1em;
+}
+
+#tinybox {
+	position:absolute; 
+	display:none; 
+	padding:10px;
+	background:#ffffff no-repeat 50% 50%;
+	border:10px solid #e3e3e3; 
+	z-index:2000;
+}
+
+#tinymask {
+	position:absolute; 
+	display:none; 
+	top:0; 
+	left:0; 
+	height:100%; 
+	width:100%; 
+	background:#000000; 
+	z-index:1500;
+}
+
+#tinycontent {
+	background:#ffffff; 
+	font-size:1.1em;
+}
