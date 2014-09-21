@@ -6,7 +6,8 @@ The HTML5 video website to remind you of childhood.
 
 ## Usage
 
-Use `Chrome`, `Firefox`, `Safari` or `IE` to open index.html which is a totally static page.
+* Use `Chrome`, `Firefox`, `Safari` or `IE` to open index.html which is a totally static page.
+* Or `docker run -d -p 80:80 tobegit3hub/childhood` to run the HTTP service.
 
 ## Screenshot
 
