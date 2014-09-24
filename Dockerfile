@@ -1,5 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER tobe tobeg3oogle@gmail.com
+ENV REFRESH_AT 2014-09-24
 
 RUN apt-get update
 
